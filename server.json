@@ -1,4 +1,4 @@
 {
     "script": "index.js",
-    "args": "--port $PORT"
+    "args": "--port ${PORT-8080}"
 }
