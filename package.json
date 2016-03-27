@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "jade": "^1.11.0",
+    "mustache": "^2.2.1"
   },
   "devDependencies": {},
   "scripts": {

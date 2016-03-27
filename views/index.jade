@@ -1,0 +1,12 @@
+doctype html
+
+html(lang='en')
+    script(src='/scripts/site.js')
+
+body
+    div(class='content')= message
+
+    script.
+        $(function() {
+            alert('hi there');
+        })

@@ -1,0 +1,22 @@
+{
+  "name": "nodevm-example",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "datashaman <marlinf@datashaman.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/datashaman/nodevm-example",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
