@@ -5,6 +5,6 @@ app.get('/', function(request, response) {
 	response.send('Hello World!');
 });
 
-app.listen(8080, function() {
-	console.log('Node app is running at localhost:8080');
+app.listen(process.env.PORT || 8080, function() {
+	console.log('Node app is running at localhost:' + process.env.PORT);
 });
