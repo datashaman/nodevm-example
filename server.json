@@ -1,3 +1,4 @@
 {
-    "script": "index.js"
+    "script": "index.js",
+    "args": "--port $PORT"
 }
